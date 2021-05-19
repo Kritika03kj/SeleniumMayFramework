@@ -21,6 +21,8 @@ public class ApplicationClass {
 		System.out.println(data);
 		for(int i = 1; i<data.length;i++) {
 			switch(data[i][3]) {
+			
+			//Making changes to code after release1.1
 			case "openBrowser":
 				mtd.openBrowser();
 				break;
